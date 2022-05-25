@@ -1,8 +1,8 @@
 import emoji from 'react-easy-emoji';
 
 export const greeting = {
-	username: 'Username',
-	title: 'Hello I\'m Username',
+	username: 'User',
+	title: 'Hello I\'m User',
 	subTitle: emoji("subtitle ❤"),
 	role: "Your role",
 	resumeLink: "Your resume link... google drive or something else",
