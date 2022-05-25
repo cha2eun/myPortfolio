@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.7a95f607.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.50b774ac.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.50b774ac.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.4b3e8bd9.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.4b3e8bd9.js.map",
+    "static/js/2.9a2180c5.chunk.js": "/myPortfolio/static/js/2.9a2180c5.chunk.js",
+    "static/js/2.9a2180c5.chunk.js.map": "/myPortfolio/static/js/2.9a2180c5.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "precache-manifest.4ced98c5d1a20de134e41d9caab42954.js": "/myPortfolio/precache-manifest.4ced98c5d1a20de134e41d9caab42954.js",
+    "service-worker.js": "/myPortfolio/service-worker.js",
+    "static/css/main.7a95f607.chunk.css.map": "/myPortfolio/static/css/main.7a95f607.chunk.css.map",
+    "static/js/2.9a2180c5.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.9a2180c5.chunk.js.LICENSE.txt",
+    "static/media/sad-icon.png": "/myPortfolio/static/media/sad-icon.b88924d5.png",
+    "static/media/your photo.png": "/myPortfolio/static/media/your photo.b9d7d448.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b3e8bd9.js",
+    "static/js/2.9a2180c5.chunk.js",
+    "static/css/main.7a95f607.chunk.css",
+    "static/js/main.50b774ac.chunk.js"
+  ]
+}
