@@ -2,7 +2,7 @@ import React from 'react';
 import './Hello.css';
 import { greeting } from '../../portfolio';
 import Social from '../Social/Social';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Hello() {
 	const Fade: any = require("react-reveal/Fade");
@@ -31,7 +31,9 @@ function Hello() {
 					</div>
 					<div className="wrapper-links">
 						<a href="#contact" id="about">Contact &gt;</a>
-						{/* <Link to="/subPage"><a id="resume" >View Resume &gt;</a></Link> */}
+						<Link to="/subPage">
+						<a id="resume" >View Resume &gt;</a>
+						</Link>
 					</div>
 				</div>
 
