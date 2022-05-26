@@ -5,6 +5,7 @@ import Social from '../Social/Social';
 
 function Contact() {
     const Fade: any = require('react-reveal/Fade');
+    const intList = contactInfo.introduce;
     return (
         <Fade bottom duration={800}>
         <section className="section--contact" id="contact">
@@ -22,7 +23,10 @@ function Contact() {
                         <p>{contactInfo.subTitle}</p>
                     </div>
                     <div className="contact-introduce">
-                        <p>{contactInfo.introduce}</p>
+                        {intList.map((intr, i) => (
+                            <p>{intr.intro}</p>
+                        ))}
+                        {/* <p>{contactInfo.introduce}</p> */}
                     </div>
                     <div className="social-links">
                         <Social />

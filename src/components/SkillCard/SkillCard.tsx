@@ -10,9 +10,12 @@ function SkillCard({ skill }: Props) {
             <div className="skill-text">
                 <p>{skill.text}</p>
             </div>
-            <div className="skill-progress-bar">
+            {/* <div className="skill-progress-bar">
                 <span style={{width: `${skill.proficiency}%`}}></span>
                 <p>{skill.proficiency}%</p>
+            </div> */}
+            <div className='skill-comment'>
+                <p>{skill.proficiency}</p>
             </div>
         </div>
     );
@@ -21,7 +24,7 @@ interface Props {
     skill: {
         fontAwesome: string,
         text: string,
-        proficiency: number
+        proficiency: string
     }
 }
 export default SkillCard;

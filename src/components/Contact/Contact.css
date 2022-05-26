@@ -24,10 +24,13 @@
     font-weight: 300;
 }
 .section--contact .contact-introduce {
-    margin-top: 50px;
+    margin-top: 0px;
     font-size: 25px;
     font-weight: 500;
     color: #c1c2c3;
+}
+.section--contact .contact-introduce p {
+    margin-top: 15px;
 }
 .section--contact .social-links {
     margin-top: 50px;
@@ -58,6 +61,7 @@
     }
     .section--contact .contact-subtitle {
         font-size: 20px;
+        margin-top: 25px;
     }
 }
 

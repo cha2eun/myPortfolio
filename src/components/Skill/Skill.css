@@ -23,6 +23,14 @@
     font-weight: 300;
     color: #c1c2c3;
 }
+
+.subtitle-p {
+    margin-top: 40px;
+    margin-bottom: -30px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #c1c2c3;
+}
 .section--skill .skill-cards {
     margin-top: 50px;
     display: grid;
@@ -57,7 +65,7 @@
         font-size: 20px;
     }
     .section--skill .skill-cards {
-        grid-template-columns: repeat(auto-fit, 25%);
+        grid-template-columns: repeat(auto-fit, 30%);
     }
     .section--skill .skill-image {
         font-size: 200px;

@@ -2,10 +2,15 @@ import React from 'react';
 import './Hello.css';
 import { greeting } from '../../portfolio';
 import Social from '../Social/Social';
+// import { Link } from 'react-router-dom';
 
 function Hello() {
 	const Fade: any = require("react-reveal/Fade");
-	return (
+/* 	let navigate = useNavigate();
+	function resumeClick(){
+		navigate("/subPage");
+	}
+ */	return (
 		<Fade bottom duration={800}>
 		<section className="section--hello">
 			<div className="inner">
@@ -26,7 +31,7 @@ function Hello() {
 					</div>
 					<div className="wrapper-links">
 						<a href="#contact" id="about">Contact &gt;</a>
-						<a href={greeting.resumeLink} id="resume" target="_blank" rel="noopener noreferrer">View Resume &gt;</a>
+						{/* <Link to="/subPage"><a id="resume" >View Resume &gt;</a></Link> */}
 					</div>
 				</div>
 
