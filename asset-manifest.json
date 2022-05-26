@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.7a95f607.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.88fd6b37.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.88fd6b37.chunk.js.map",
+    "main.css": "/myPortfolio/static/css/main.43c74e6e.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.67286302.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.67286302.chunk.js.map",
     "runtime-main.js": "/myPortfolio/static/js/runtime-main.4b3e8bd9.js",
     "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.4b3e8bd9.js.map",
-    "static/js/2.9a2180c5.chunk.js": "/myPortfolio/static/js/2.9a2180c5.chunk.js",
-    "static/js/2.9a2180c5.chunk.js.map": "/myPortfolio/static/js/2.9a2180c5.chunk.js.map",
+    "static/js/2.b678134d.chunk.js": "/myPortfolio/static/js/2.b678134d.chunk.js",
+    "static/js/2.b678134d.chunk.js.map": "/myPortfolio/static/js/2.b678134d.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
-    "precache-manifest.f2876f1b8d1c9eb724b44e433f57d925.js": "/myPortfolio/precache-manifest.f2876f1b8d1c9eb724b44e433f57d925.js",
+    "precache-manifest.17167c25ed905e9feb23edb11fad2f38.js": "/myPortfolio/precache-manifest.17167c25ed905e9feb23edb11fad2f38.js",
     "service-worker.js": "/myPortfolio/service-worker.js",
-    "static/css/main.7a95f607.chunk.css.map": "/myPortfolio/static/css/main.7a95f607.chunk.css.map",
-    "static/js/2.9a2180c5.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.9a2180c5.chunk.js.LICENSE.txt",
-    "static/media/sad-icon.png": "/myPortfolio/static/media/sad-icon.b88924d5.png",
-    "static/media/your photo.png": "/myPortfolio/static/media/your photo.b9d7d448.png"
+    "static/css/main.43c74e6e.chunk.css.map": "/myPortfolio/static/css/main.43c74e6e.chunk.css.map",
+    "static/js/2.b678134d.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.b678134d.chunk.js.LICENSE.txt",
+    "static/media/chnyticon.png": "/myPortfolio/static/media/chnyticon.a4da014a.png",
+    "static/media/sad-icon.png": "/myPortfolio/static/media/sad-icon.b88924d5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4b3e8bd9.js",
-    "static/js/2.9a2180c5.chunk.js",
-    "static/css/main.7a95f607.chunk.css",
-    "static/js/main.88fd6b37.chunk.js"
+    "static/js/2.b678134d.chunk.js",
+    "static/css/main.43c74e6e.chunk.css",
+    "static/js/main.67286302.chunk.js"
   ]
 }
