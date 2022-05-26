@@ -3,8 +3,11 @@ import emoji from 'react-easy-emoji';
 export const greeting = {
 	username: 'CHAEEUN JANG',
 	title: "Chaeeun's Portfolio",
-	subTitle: emoji("프론트엔드 개발자로 성장중인 주니어 개발자입니다.💪🏻"),
-	role: "📢",
+	subTitle: [ {sub: emoji("📅 생년월일 : 1993.10.29")}
+	,{sub:emoji("😀 이름 : 장채은")}
+	,{sub:emoji("🏠 주소 : 서울특별시 영등포구")}
+	,{sub:emoji("✏ 학력 : 동덕여자대학교 (2013~2017) ")}],
+	role: "📢ABOUT ME",
 	resumeLink: "/subPage",
 	// IMPORTANT
 	// If you don't want to show this, change view to false. DO NOT DELETE!
@@ -52,11 +55,10 @@ export const skills = {
 					]
 		},
 		{subTitle:emoji("✔ Front-End"), 
-		lists:[{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: "2번"},
-				{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: "2번"},
-				{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: "70"},
-				{fontAwesome: "fab fa-sass", text: "jQuery", proficiency: "30"},
-				{fontAwesome: "fab fa-react", text: "React", proficiency: "60"},
+		lists:[{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: "-전달받은 html 퍼블리싱파일을 jsp로 이용"},
+				{fontAwesome: "fab fa-css3-alt", text: "CSS", proficiency: "-퍼블리싱받은 파일을 프로그램에 적용이 가능"},
+				{fontAwesome: "fa-solid fa-file-code", text: "jQuery", proficiency: "-실무에서 주로 사용\n"},
+				{fontAwesome: "fab fa-react", text: "React", proficiency: "-개인적으로 학습"},
 				]
 		},
 		{subTitle:emoji("✔ Back-End"), 
@@ -95,7 +97,7 @@ export const openSourceProjects = {
 
 export const projects = {
 	title: emoji("Career 💻"),
-	subTitle: "s실무 개발 경력",
+	subTitle: "실무 개발 경력",
 	lists: [
 		{
 			title: "Project1",

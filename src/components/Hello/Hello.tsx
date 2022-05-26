@@ -23,9 +23,12 @@ function Hello() {
 					<div className="role">
 						<span>{greeting.role}</span>
 					</div>
-					<div className="text-subtitle">
-						<span>{greeting.subTitle}</span>
-					</div>
+					<ul className="text-subtitle">
+						{greeting.subTitle.map((item, index) => (
+							<li className="subtitle-inner">{item.sub}</li> 
+						))}
+						{/* <li className="subtitle-inner">{greeting.subTitle}</li> */}
+					</ul>
 					<div className="social-links">
 						<Social />
 					</div>
