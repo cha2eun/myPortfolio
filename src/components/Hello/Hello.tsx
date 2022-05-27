@@ -34,8 +34,8 @@ function Hello() {
 					</div>
 					<div className="wrapper-links">
 						<a href="#contact" id="about">Contact &gt;</a>
-						<Link to="/subPage">
-						<a id="resume" >View Resume &gt;</a>
+						<Link to="/myPortfolio/subPage"id="resume">
+						View Resume &gt;
 						</Link>
 					</div>
 				</div>
