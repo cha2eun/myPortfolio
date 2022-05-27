@@ -5,7 +5,7 @@ import "./Home.css";
 
 export default function Home() {
     
-    function scrollFunction() {
+    // function scrollFunction() {
         const Button: HTMLElement | null = document.getElementById("homeButton");
         // if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
         //     if (Button === null) throw new Error("Cannot find homeButton");
@@ -14,9 +14,9 @@ export default function Home() {
         //     if (Button === null) throw new Error("Cannot find homeButton");
         //     Button.style.visibility = "hidden";
         // }
-    }
-    window.onscroll = function() {scrollFunction();};
-    window.onload = function() {scrollFunction();};
+    // }
+    // window.onscroll = function() {scrollFunction();};
+    // window.onload = function() {scrollFunction();};
 
     return (
         <Link to="/main">

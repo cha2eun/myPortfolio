@@ -9,7 +9,7 @@ import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Experience from './Experience/Experience';
 import Project from './Project/Project';
-import { greeting, skills, experience, projects, achievements, blogs, contactInfo } from '../portfolio';
+import { greeting, skills, experience, projects, achievements, blogs, contactInfo, mainTop } from '../portfolio';
 function Main() {
 	return (
 		<div className="root">
@@ -22,7 +22,7 @@ function Main() {
 			{blogs.view && <Blog />}
 			{contactInfo.view && <Contact />}
 			<Footer />
-			<Top />
+			{mainTop.view && <Top from={mainTop.from}/>}
 		</div>
 	);
 }

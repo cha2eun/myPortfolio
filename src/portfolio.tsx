@@ -160,3 +160,13 @@ export const contactInfo = {
 				],
 	view: true
 }
+
+export const subTop = {
+	from : "sub",
+	view:true
+}
+
+export const mainTop = {
+	from : "main",
+	view:true
+}

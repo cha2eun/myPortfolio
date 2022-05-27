@@ -4,7 +4,7 @@ import Top from './topButton/Top';
 import Experience from './Experience/Experience';
 import Home from './HomeButton/Home';
 import Footer from './Footer/Footer';
-import { experience } from '../portfolio';
+import { subTop, experience } from '../portfolio';
 function SubPage() {
 	return (
 		<div className="root">
@@ -12,7 +12,7 @@ function SubPage() {
 			{experience.view && <Experience />}
 			<Footer />
 			<Home />
-			<Top />
+			{subTop.view && <Top from={subTop.from} />}
 		</div>
 	);
 }
