@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Header/Header';
 import SubHeader from './SubHeader/SubHeader';
 import Top from './topButton/Top';
 import Home from './HomeButton/Home';

@@ -5,9 +5,11 @@ function WorkCard({ works }: Props) {
     const Fade = require('react-reveal/Fade');
     
     return (
+        
         <Fade duration={800} bottom>
         <div className="expcard-main">
             <div className="inner">
+                
                 <div className="expcard-role">
                     {works.subTit}
                 </div>
@@ -18,6 +20,7 @@ function WorkCard({ works }: Props) {
             </div>
         </div>
         </Fade>
+        
     );
 }
 interface Props {

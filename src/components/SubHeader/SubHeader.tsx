@@ -31,12 +31,26 @@ function SubHeader() {
 				</div>
 
 				<ul className="nav-menu" id="toggle-nav">
-					{skills.view && <li className="nav-list">
-						<a href="#skills" onClick={onClickMenu}>
-							Skills
+					{<li className="nav-list">
+						<a href="#carrer" onClick={onClickMenu}>
+							이력
 						</a>
 					</li>}
-
+					{<li className="nav-list">
+						<a href="#certi" onClick={onClickMenu}>
+							자격사항
+						</a>
+					</li>}
+					{<li className="nav-list">
+						<a href="#intro" onClick={onClickMenu}>
+							소개
+						</a>
+					</li>}
+					{<li className="nav-list">
+						<a href="#admin" onClick={onClickMenu}>
+							경력
+						</a>
+					</li>}
 				</ul>
 
 			</div>

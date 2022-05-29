@@ -19,7 +19,7 @@ export default function Home() {
     // window.onload = function() {scrollFunction();};
 
     return (
-        <Link to="/main">
+        <Link to="/myPortfolio/main">
             <button  id="homeButton" title="Go to home">Home</button>
         </Link>
     );
