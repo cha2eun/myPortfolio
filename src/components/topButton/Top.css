@@ -40,9 +40,9 @@
 }
 @media screen and (max-width: 768px) {
     #topButton {
-        display: none;
+        display: block;
     }
     #topButton-subPage {
-        display: none;
+        display: block;
     }
 }

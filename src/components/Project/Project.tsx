@@ -11,10 +11,10 @@ function Project() {
                 <div className="project-title">
                     <p>{projects.title}</p>
                 </div>
-                <div className="project-subtitle">
+{/*                 <div className="project-subtitle">
                     <p>{projects.subTitle}</p>
                 </div>
-
+ */}
                 <div className="project-cards">
                     {projects.lists.map((list, i) => {
                         return <ProjectCard project={list} key={i} />

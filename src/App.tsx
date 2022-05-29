@@ -6,13 +6,13 @@ import SubPage from './components/subPage';
 function App() {
   const history=useHistory();
   React.useEffect(() => {
-    history.push('/myPortfolio/main');
+    history.push('/main');
   }, [])
   return (
     <>
     <Switch>
-      <Route path="/myPortfolio/main" component={Main}/>
-      <Route path="/myPortfolio/subPage" component={SubPage}/>
+      <Route path="/main" component={Main}/>
+      <Route path="/subPage" component={SubPage}/>
     </Switch>
     </> 
   );

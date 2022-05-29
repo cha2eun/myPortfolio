@@ -15,6 +15,7 @@
 .project-card-main:hover {
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);
     background-color: #4a4b4c;
+    cursor: default;
 }
 .project-card-main .card-title {
     font-size: 25px;
@@ -22,21 +23,36 @@
 }
 .project-card-main .card-desc {
     line-height: 1.4;
+    white-space:pre-wrap;
+    word-wrap: break-word;
     margin-top: 30px;
-    display: -webkit-inline-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    /* display: -webkit-inline-box;
+    -webkit-box-orient: vertical; */
+    overflow: auto;
     font-size: 20px;
     font-weight: 300;
     color: #c1c2c3;
     -webkit-line-clamp: 2;
 }
-
+.project-card-main .card-skills {
+    line-height: 1.4;
+    margin-top: 15px;
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 300;
+    color: #c1c2c3;
+    -webkit-line-clamp: 2;
+}
 @media screen and (max-width: 1380px) {
     .project-card-main .card-title {
         font-size: 22px;
     }
     .project-card-main .card-desc {
-        font-size: 16px;
+        font-size: 18px;
+    }
+    .project-card-main .card-skills {
+        font-size: 14px;
     }
 }

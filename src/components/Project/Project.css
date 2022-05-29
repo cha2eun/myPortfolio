@@ -19,6 +19,7 @@
 .section--project .project-cards {
     margin-top: 50px;
     display: grid;
+    height: 100;
     grid-template-columns: repeat(auto-fit, 32%);
     column-gap: 2%;
 }

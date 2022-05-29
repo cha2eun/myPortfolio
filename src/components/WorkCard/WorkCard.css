@@ -6,7 +6,7 @@
     background-color: #212223;
     color: #f1f2f3;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
     transition: 0.3s ease-out;
 }
 .expcard-main:hover {
@@ -26,11 +26,11 @@
 }
 .expcard-main .expcard-content{
     font-size: 17px;
+    line-height: 145%;
     margin-top: 10px;
     font-weight: 300;
     white-space:pre-wrap;
-    line-height: 75%;
-    color: #a2cdff;
+    color: #f1f2f3;
 }
 
 @media screen and (max-width: 1380px) {

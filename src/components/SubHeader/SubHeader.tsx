@@ -1,8 +1,8 @@
 import React from 'react';
-import './Header.css';
-import { greeting, skills, experience, projects, achievements, blogs, contactInfo } from '../../portfolio';
+import './SubHeader.css';
+import { greeting, skills } from '../../portfolio';
 
-function Header() {
+function SubHeader() {
 	
 	const onClickMenu = function(): void {
 		if (window.innerWidth < 768) {
@@ -36,35 +36,11 @@ function Header() {
 							Skills
 						</a>
 					</li>}
-					{experience.view && <li className="nav-list" onClick={onClickMenu}>
-						<a href="#experience">
-							Experience
-						</a>
-					</li>}
-					{projects.view && <li className="nav-list" onClick={onClickMenu}>
-						<a href="#project">
-						Career
-						</a>
-					</li>}
-					{achievements.view && <li className="nav-list" onClick={onClickMenu}>
-						<a href="#achievement">
-							Career
-						</a>
-					</li>}
-					{blogs.view && <li className="nav-list" onClick={onClickMenu}>
-						<a href="#blog">
-							Blogs
-						</a>
-					</li>}
-					{contactInfo.view && <li className="nav-list" onClick={onClickMenu}>
-						<a href="#contact">
-							Contact Me
-						</a>
-					</li>}
+
 				</ul>
 
 			</div>
 		</header>
 	);
 }
-export default Header;
+export default SubHeader;
