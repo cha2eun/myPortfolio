@@ -13,7 +13,7 @@ function App() {
     <Switch>
       <Route path="/main" component={Main}/>
       <Route path="/subPage" component={SubPage}/>
-      <Route component={NotFound}/>
+      <Route path="/" component={Main}/>
     </Switch>
     </> 
   );

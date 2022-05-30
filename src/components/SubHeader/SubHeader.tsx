@@ -1,6 +1,7 @@
 import React from 'react';
 import './SubHeader.css';
-import { greeting, skills } from '../../portfolio';
+import { greeting, workExp } from '../../portfolio';
+import { Link } from 'react-router-dom';
 
 function SubHeader() {
 	
@@ -31,22 +32,22 @@ function SubHeader() {
 				</div>
 
 				<ul className="nav-menu" id="toggle-nav">
-					{<li className="nav-list">
-						<a href="#carrer" onClick={onClickMenu}>
+					{workExp.view && <li className="nav-list">
+						<a href="#career" onClick={onClickMenu}>
 							이력
 						</a>
 					</li>}
-					{<li className="nav-list">
+					{workExp.view && <li className="nav-list">
 						<a href="#certi" onClick={onClickMenu}>
 							자격사항
 						</a>
 					</li>}
-					{<li className="nav-list">
+					{workExp.view && <li className="nav-list">
 						<a href="#intro" onClick={onClickMenu}>
 							소개
 						</a>
 					</li>}
-					{<li className="nav-list">
+					{workExp.view && <li className="nav-list">
 						<a href="#admin" onClick={onClickMenu}>
 							경력
 						</a>
