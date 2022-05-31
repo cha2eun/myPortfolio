@@ -1,7 +1,6 @@
 import React from 'react';
 import './SubHeader.css';
-import { greeting, workExp } from '../../portfolio';
-import { Link } from 'react-router-dom';
+import { greeting, workExp } from '../../portfolio';import { Link } from 'react-router-dom';
 
 function SubHeader() {
 	

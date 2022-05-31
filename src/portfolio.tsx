@@ -192,7 +192,7 @@ export const workExp = {
 	
 	work:[
 		{title:emoji("✔ 이력"), 
-		clickName:"carrer",
+		clickName:"career",
 		lists:{ subTit: ""
 		, text: "2013(입학) ~ 2017(졸업)    : 동덕여자대학교 컴퓨터학과\n2019.12 ~ 2020.06          : 비트캠프 (신촌) 웹개발자 풀스택 과정 수료\n2020.10 ~                  : 웹케시 (비플제로페이 - 제로페이개발부)"
 		}},

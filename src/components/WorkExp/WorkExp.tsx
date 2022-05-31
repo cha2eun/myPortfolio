@@ -18,7 +18,7 @@ function WorkExp() {
                         return <WorkCard workExp={list} key={i} />
                     })}
  */}            {List.map((workE, workIdx) => (
-                    <section className={"section--work "+ workE.clickName}>
+                    <section className="section--work" id={workE.clickName}>
                     <div className="exp-cards">
                         <p className ="exp-subTitle" >{workE.title}</p>
                         

@@ -6,13 +6,13 @@ import NotFound from './components/notFound';
 function App() {
   const history=useHistory();
   React.useEffect(() => {
-    history.push('/main');
+    history.push('/index');
   }, [])
   return (
     <>
     <Switch>
-      <Route path="/main" component={Main}/>
-      <Route path="/subPage" component={SubPage}/>
+      <Route exact path="/main" component={Main}/>
+      <Route exact path="/subPage" component={SubPage}/>
       <Route path="/" component={Main}/>
     </Switch>
     </> 

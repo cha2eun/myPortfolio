@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter, HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter basename='myPortfolio'>
+  <BrowserRouter>
    {/* <HashRouter>  */}
     <App />
   {/* </HashRouter>, */}
